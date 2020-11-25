@@ -59,7 +59,7 @@ footer {
     background: #ecf282;
     height: 100%;
 }
-@media screen and (max-width:360px) {
+@media screen and (max-width:390px) {
     main figure img {
         padding: 40px;
         width: 300px;
