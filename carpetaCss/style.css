@@ -19,6 +19,7 @@ header h1 {
     font-size: 2rem;
     cursor: pointer;
     color: #fff;
+    font-family: 'Arimo', sans-serif;
 }
 header {
     background: #06847e;
@@ -40,6 +41,9 @@ header {
 .nav__links  li  a:hover {
     color:  #06847e;
 }
+.hero_responsive {
+    display: none;
+}
 /* button {
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
@@ -60,9 +64,20 @@ footer {
     height: 100%;
 }
 @media screen and (max-width:390px) {
-    main figure img {
+ /*    .logo {
         padding: 40px;
         width: 300px;
         align-items: center;
+        display: none;
+    } */
+    nav {
+        display: none;
+    }
+    .hero_responsive img {
+        padding: 40px;
+        width: 300px;
+    }
+    .hero_responsive h1 {
+        color: #fff;
     }
 }
