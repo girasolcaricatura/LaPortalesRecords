@@ -67,7 +67,7 @@ main {
     margin: 0;
     background: #80CED7
 }
-@media screen and (max-width:390px) {
+@media screen and (max-width:768px) {
     header {
         box-shadow: 2px 18px 15px 1px rgba(0,0,0,0.46);
     }
