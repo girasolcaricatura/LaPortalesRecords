@@ -62,9 +62,10 @@ main {
     background: #007EA7;
 }
 .section_responsive {
-    background: #ecf282;
+/*     background: #ecf282; */
     height: 15vh;
     margin: 0;
+    background: #80CED7
 }
 @media screen and (max-width:390px) {
     header {
@@ -109,7 +110,7 @@ main {
     }
     footer {
         height: 100vh;
-        background: #80CED7;
+        background: #00A6FB;
         margin: 0;
     }
     footer img {
