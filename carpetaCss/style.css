@@ -196,5 +196,10 @@ background: #F7CE5B;
         align-items: center;
         align-content: center;
     }
+    .store-grid {
+        display: block;
+    }
+    .store-grid img {
+    }
 
 }
