@@ -29,6 +29,20 @@ header {
     align-items: center;
     padding: 30px 15px;
 }
+#slider {
+    overflow: hidden;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img {
+    width: 20%;
+    float: left;
+}
 .nav__links {
     list-style: none;
 }
