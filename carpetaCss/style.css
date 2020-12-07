@@ -24,7 +24,8 @@ header h1 {
 header {
 /*     background: #06847e; */
     display: flex;
-    background: #003249;
+    background: #4C4B63;
+/*     background: #003249; */
     justify-content: flex-end;
     align-items: center;
     padding: 30px 15px;
@@ -96,7 +97,9 @@ button:hover {
 main {
 /*     background-color: #8fd306; */
     height: 50vh;
-    background: #007EA7;
+/*     background: #7371FC */
+/*     background: #007EA7 */
+background: #F7CE5B;
 }
 .section_responsive {
 /*     background: #ecf282; */
@@ -106,9 +109,9 @@ main {
 /*     background: #80CED7; */
 }
 @media screen and (max-width:768px) {
-    header {
+/*     header {
         box-shadow: 2px 18px 15px 1px rgba(0,0,0,0.46);
-    }
+    } */
     .logo {
 /*         padding: 40px;
         width: 300px;
@@ -147,6 +150,9 @@ main {
     .news-icon {
         width: 30px;
         color: #fff;
+    }
+    .section-grid {
+        display: inline-block;
     }
     .section_logo_responsive {
         width: 180px;
