@@ -65,7 +65,8 @@ main {
 /*     background: #ecf282; */
     height: 50vh;
     margin: 0;
-    background: #80CED7
+    background: #00A6FB;
+/*     background: #80CED7; */
 }
 @media screen and (max-width:768px) {
     header {
@@ -101,6 +102,15 @@ main {
         font-size: 2.5rem;
         font-family: 'Arimo', sans-serif;
     }
+    .newsletter-header {
+        display: flex;
+        align-items: baseline;
+        align-content: center;
+    }
+    .news-icon {
+        width: 30px;
+        color: #fff;
+    }
     .section_logo_responsive {
         width: 180px;
     }
@@ -110,7 +120,8 @@ main {
     }
     footer {
         height: 100vh;
-        background: #00A6FB;
+ /*        background: #00A6FB; */
+        background: #7371FC;
         margin: 0;
     }
     footer img {
@@ -125,4 +136,14 @@ main {
         font-family: 'Arimo', sans-serif;
         margin: 0;
     }
+    .money-icon {
+        width: 39px;
+        padding: 0;
+    }
+    .header-tienda {
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+
 }
