@@ -24,7 +24,8 @@ header h1 {
 }
 header {
     display: flex;
-    background: #04A777;
+/*     background: #04A777; */
+    background: #F7CE5B;
 /*     background: #4C4B63; */
     justify-content: flex-end;
     align-items: center;
@@ -89,10 +90,11 @@ header img {
 }
 main {
     height: 50vh;
-background: #F7CE5B;
+/* background: #F7CE5B; */
+background: #04A777;
 }
 .section_responsive {
-    height: 150vh;
+    height: 200vh;
     margin: 0;
     background: #00A6FB;
 }
