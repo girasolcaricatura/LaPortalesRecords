@@ -92,7 +92,7 @@ main {
 background: #F7CE5B;
 }
 .section_responsive {
-    height: 200vh;
+    height: 150vh;
     margin: 0;
     background: #00A6FB;
 }
@@ -209,7 +209,9 @@ background: #F7CE5B;
     .store-grid img {
     }
     .welcome-news {
+/*         border-bottom: dashed #fff 1px; */
         border-top: dashed #fff 1px;
+        padding-bottom: 20px;
     }
     .welcome-news img {
         width: 350px;
