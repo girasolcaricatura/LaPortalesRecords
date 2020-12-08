@@ -19,7 +19,7 @@ header h1 {
     font-size: 3.5rem;
     cursor: pointer;
     color: #fff;
-    font-family: 'East Sea Dokdo', cursive;
+    font-family: 'East Sea Dokdo', arial;
 /*     font-family: 'Arimo', sans-serif; */
 }
 header {
@@ -92,7 +92,7 @@ main {
 background: #F7CE5B;
 }
 .section_responsive {
-    height: 150vh;
+    height: 200vh;
     margin: 0;
     background: #00A6FB;
 }
