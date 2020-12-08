@@ -16,10 +16,11 @@ li, a, button {
 header h1 {
     margin-right: auto;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3.5rem;
     cursor: pointer;
     color: #fff;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'East Sea Dokdo', cursive;
+/*     font-family: 'Arimo', sans-serif; */
 }
 header {
     display: flex;
@@ -28,6 +29,10 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 15px;
+}
+header img {
+    height: 50px;
+    width: 300px;
 }
 /* slider */
 #slider {
@@ -87,7 +92,7 @@ main {
 background: #F7CE5B;
 }
 .section_responsive {
-    height: 100vh;
+    height: 150vh;
     margin: 0;
     background: #00A6FB;
 }
@@ -147,6 +152,7 @@ background: #F7CE5B;
         flex-wrap: wrap;
         align-items: center;
         padding-top: 15px;
+        padding-bottom: 20px;
     }
     .cassette-negro {
         width: 130px;
@@ -202,5 +208,18 @@ background: #F7CE5B;
     }
     .store-grid img {
     }
-
+    .welcome-news {
+        border-top: dashed #fff 1px;
+    }
+    .welcome-news img {
+        width: 350px;
+        margin-left: 5px;
+    }
+    .welcome-news p {
+        color: #fff;
+        font-size: 1.7rem;
+        font-family: 'Arimo', sans-serif;
+        text-align: center;
+        padding-top: 10px;
+    }
 }
